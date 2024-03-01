@@ -1,36 +1,104 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+## Webinar Landing Page README
 
-## Getting Started
+Este proyecto es un landing page para el Webinar "Optimiza tus Proyectos con Scrum Network" presentado por Clix Solution Consulting y Scrum Network. Desarrollado utilizando Next.js 14, TypeScript, Tailwind CSS y Shadcn.
 
-First, run the development server:
+### Descripción del Webinar:
+
+Clix Solution Consulting le da la bienvenida a Scrum Network, una empresa líder en metodología ágil. En este webinar, exploraremos cómo implementar una cultura ágil en tu empresa para responder preguntas clave como:
+
+- ¿Por qué se retrasan los proyectos?
+- ¿Cómo puedo implementar una cultura ágil en mi empresa?
+- ¿Cómo puede Scrum Network apoyarme en este proceso?
+- ¿Cómo puedo certificar a mi equipo de trabajo?
+
+### Detalles del Webinar:
+
+- **Tema**: Optimiza tus Proyectos
+- **Fecha**: Miércoles 13 de Marzo 2024
+- **Hora**: 11:00 A.M. (Hora local)
+
+### Oradores:
+
+- [Nombre del Orador 1]
+- [Nombre del Orador 2]
+- Luis Mena
+
+### Agenda:
+
+1. Apertura y Bienvenida - Buenaventura De La Rosa, CEO de Clix Solution Consulting, SRL.
+2. [Subtema 1] - [Nombre del Orador 1]
+3. [Subtema 2] - [Nombre del Orador 2]
+4. Certificación Presencial - Luis Mena
+5. Sesión de preguntas y respuestas.
+
+### Registro:
+
+¡Regístrate ahora para asegurar tu lugar en este emocionante webinar!
+
+[Link del Landing Page]
+
+### Tecnologías Utilizadas:
+
+- Next.js 14
+- TypeScript
+- Tailwind CSS
+- Shadcn
+
+### Requerimientos
+
+Asegúrese de tener instalado las dependencias en package.json siguiente antes de ejecutar este proyecto utilizando:
+
+- Node.js (preferiblemente la versión LTS)
+- npm (Node Package Manager) o yarn
+
+### Instalación
+
+1. Clonar el repositorio:
+
+```bash
+git clone <URL del repositorio>
+```
+
+2. Instalar las dependencias:
+
+```bash
+cd <nombre del directorio>
+npm install
+```
+o
+```bash
+yarn install
+```
+
+### Ejecución
+
+Para ejecutar el proyecto en un entorno de desarrollo, utilice el siguiente comando:
 
 ```bash
 npm run dev
-# or
+```
+o
+```bash
 yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Una vez que el servidor esté en funcionamiento, puede acceder al sitio web en `http://localhost:3000`.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+### Estructura del Proyecto
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+El proyecto sigue una estructura estándar de Next.js:
 
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+```
+/
+|-- components/ui         # Componentes reutilizables instalados de shadcn
+|-- app/                  # Páginas del sitio web
+|-- app/globals.css 
+|-- public/               # Archivos estáticos públicos
+|-- tailwind.config.js    # Configuración de Tailwind CSS
+|-- .eslintrc.json        # Configuración de ESLint
+|-- .gitignore            # Archivos ignorados por Git
+|-- next.config.js        # Configuración de Next.js
+|-- package.json          # Lista de dependencias y scripts de npm
+|-- tsconfig.json         # Configuración de TypeScript
+|-- README.md             # Este archivo
+```
